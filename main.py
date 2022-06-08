@@ -1,6 +1,6 @@
 import socket
 import keyboard
-
+import struct
 
 def cut_in_asterix(buf, above_buf):
     p_len = int(hex(int(buf[2:6], 16)), 16) * 2
